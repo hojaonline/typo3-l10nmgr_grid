@@ -1,0 +1,20 @@
+{
+    "name": "webkoninternetagentur/l10nmgr-grid",
+    "description": "Extends the l10nmgr for Gridelements Individual FlexForm configuration. Now you can Translate Every Gridelemnts Field from Input-Text to tt_content.",
+    "type": "typo3-cms-extension",
+    "require": {
+        "typo3/cms-core": "~7.6.0"
+    },
+    "authors": [
+        {
+            "name": "Web-Kon Internetagentur",
+            "email": "technik@web-kon.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WebKonInternetagentur\\L10nmgrGrid\\": "Classes/"
+        }
+    }
+}
